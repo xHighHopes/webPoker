@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: rgba(206, 204, 204, 0.788) ;
+  position: relative;
+  background-image: url('poker.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust the height to your preference */
+}
+
+.game-container {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 10px; /* Add rounded corners */
+  padding: 20px; /* Add padding for the gray border */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 5%;
+  border: black;
+  padding: 2px;
+}
+
+.action-buttons button {
+  margin-left: 5px;
+  margin-bottom: 50px;
+  font-size: 275%;
+}

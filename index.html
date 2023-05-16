@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poker Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="game-container">
+      <!-- Your game content goes here -->
+    </div>
+
+    <div class="action-buttons">
+      <button id="foldButton">Fold</button>
+      <button id="callButton">Call</button>
+      <button id="raiseButton">Raise</button>
+      <div class="raise-input" style="display: none;">
+        <input type="range" id="raiseSlider" min="0" max="100" step="1">
+        <button id="confirmButton">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" type="module"></script>
+  <script src="deck.js"></script>
+</body>
+</html>
